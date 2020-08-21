@@ -1,0 +1,12 @@
+body {
+    margin: 0 auto;
+    max-width: 1280px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("./fonts/Poppins-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
