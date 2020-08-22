@@ -1,17 +1,17 @@
-#root {
+.container {
+    /* max-width: 1140px; */
     margin: 0 auto;
-    max-width: 1140px;
     padding: 0 70px;
 }
 
 @media(max-width:768px) {
-    #root {
+    .container {
         padding: 0 30px;
     }
 }
 
 @media(max-width:500px) {
-    #root {
+    .container {
         padding: 0 10px;
     }
 }

@@ -11,10 +11,12 @@
 .blogs {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .postItem {
     width: 370px;
+    margin-bottom: 20px;
 }
 
 .postPictureBlock {
@@ -26,17 +28,19 @@
     font-family: 'Poppins';
     font-size: 14px;
     font-weight: 500;
-    line-height:50px;
+    line-height: 50px;
     text-align: left;
     color: #808080
 }
-.title{
+
+.title {
     font-size: 18px;
     line-height: 26px;
     text-align: left;
     color: #404040;
 }
-.button{
+
+.button {
     font-size: 14px;
     line-height: 26px;
     text-align: left;

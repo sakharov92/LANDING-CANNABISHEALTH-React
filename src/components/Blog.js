@@ -19,9 +19,11 @@ function Blog() {
     }
     return (
         <>
-            <div className="mainTitle">Our Blog</div>
-            <div className="blogs">
-                {bloglist}
+            <div className="container">
+                <div className="mainTitle">Our Blog</div>
+                <div className="blogs">
+                    {bloglist}
+                </div>
             </div>
         </>
     )

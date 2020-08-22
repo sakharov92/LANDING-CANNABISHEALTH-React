@@ -29,7 +29,14 @@ function Products() {
         )
     }
     return (
-        <div className="products">{listItems}</div>
+        <div className="products">
+            <div className="container">
+                <div className="productsTitle">Featured Products</div>
+                <div className="productsList">
+                    {listItems}
+                </div>
+            </div>
+        </div>
     )
 }
 export default Products;
