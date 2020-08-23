@@ -1,0 +1,58 @@
+.promo {
+    width: fit-content;
+}
+
+.buttonBlockLeft, .buttonBlockRight {
+    border: solid 1px #808080;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color, .5s;
+}
+
+.buttonBlockLeft {
+    border-right: none;
+}
+
+.buttonBlockRight {
+    border-left: none;
+}
+
+.buttonBlockLeft:hover, .buttonBlockRight:hover {
+    background-color: #808080;
+    cursor: pointer;
+}
+
+.sliderBlock {
+    position: relative;
+}
+
+.buttonBlock {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    position: absolute;
+    bottom: 85px;
+    left: 85px;
+}
+
+.promo i {
+    display: block;
+    margin: 0;
+    font-size: 28px;
+}
+
+.promoTitle {
+    font-family: 'Poppins';
+    font-size: 72px;
+    font-weight: 500;
+    line-height: 1.4;
+    text-align: left;
+    color: #fa897b;
+    position: absolute;
+    top: 112px;
+    left: 60px;
+    max-width: 490px;
+}
