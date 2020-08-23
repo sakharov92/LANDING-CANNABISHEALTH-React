@@ -115,3 +115,14 @@ footer i {
     font-weight: 600;
     ;
 }
+
+.footerLogo {
+    max-width: 150px;
+    max-height: 150px;
+    margin-right: 100px;
+}
+
+.footerLogo img {
+    width: 100%;
+    height: auto;
+}

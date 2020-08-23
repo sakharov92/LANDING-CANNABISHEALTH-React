@@ -27,6 +27,8 @@
 
 .sliderBlock {
     position: relative;
+    width: 1280px;
+    height: 600px;
 }
 
 .buttonBlock {
@@ -55,4 +57,19 @@
     top: 112px;
     left: 60px;
     max-width: 490px;
+}
+
+.sliderPicture {
+    position: relative;
+}
+
+img.sliderImage {
+    position: absolute;
+    opacity: 1;
+    transition: opacity 1s;
+}
+
+img.hidden {
+    opacity: 0;
+    transition: opacity 1s;
 }

@@ -1,5 +1,6 @@
 import React from 'react';
-import "../css/Footer.css"
+import "../css/Footer.css";
+import logoWhite from "../img/logoWhite.png"
 
 
 
@@ -15,7 +16,9 @@ function Footer() {
                     </div>
                 </div>
                 <div className='info'>
-                    <div className="footerLogo"></div>
+                    <div className="footerLogo">
+                        <img src={logoWhite} alt="logo"></img>
+                    </div>
                     <ul className="menu">
                         <li><span>Menu</span></li>
                         <li>Our Blog</li>
@@ -38,7 +41,7 @@ function Footer() {
                     <ul className="contact"></ul>
                 </div>
             </div>
-        </footer>
+        </footer >
     )
 }
 
