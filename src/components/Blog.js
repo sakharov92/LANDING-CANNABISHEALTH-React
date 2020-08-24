@@ -19,7 +19,7 @@ function Blog() {
     }
     return (
         <>
-            <div className="container">
+            <div id="blog" className="container">
                 <div className="mainTitle">Our Blog</div>
                 <div className="blogs">
                     {bloglist}

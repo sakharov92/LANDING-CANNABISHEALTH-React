@@ -45,4 +45,11 @@
     line-height: 26px;
     text-align: left;
     color: #404040;
+    transition: font-size .5s, color .5s;
+}
+
+.button:hover {
+    font-size: 20px;
+    cursor: pointer;
+    color: #d44848;
 }

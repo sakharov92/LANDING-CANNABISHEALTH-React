@@ -13,7 +13,7 @@ function Instagram() {
         <div className='instagramPicture' key={e}><img src={e} alt={e.slice(e)}></img></div>
     )
     return (
-        <div className="instaContainer">
+        <div id="about" className="instaContainer">
             <div className="container">
                 <div className='instaTitle'>#INSTAGRAM FEED</div>
                 <div className='instagram'>{newArr}</div>

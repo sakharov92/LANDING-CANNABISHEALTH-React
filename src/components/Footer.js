@@ -6,7 +6,7 @@ import logoWhite from "../img/logoWhite.png"
 
 function Footer() {
     return (
-        <footer>
+        <footer id="contact">
             <div className='container'>
                 <div className='subscribe'>
                     <div className='footerTitle'>Subscribe For  a <span>Newsletter</span></div>

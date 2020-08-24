@@ -11,10 +11,11 @@ import Advertising from './components/Advertising.js';
 
 
 function App() {
+  
     return (
         <>
             <Header />
-            {/* <Promo /> */}
+            <Promo />
             <Advertising />
             <Products />
             <Blog />

@@ -14,6 +14,12 @@
     background-image: radial-gradient(circle at 0 0, #d9d9d9, #f2f2f2);
     margin: 0 10px;
     margin-bottom: 30px;
+    transition: box-shadow .5s;
+}
+
+.advItem:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
 }
 
 .advTitle {

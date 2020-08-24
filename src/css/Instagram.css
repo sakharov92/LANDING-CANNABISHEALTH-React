@@ -30,6 +30,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: box-shadow .5s, background-color .5s, color .3s;
+}
+
+.instaTitle:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: rgb(138, 136, 136);
+    color: #fff;
 }
 
 @media(max-width:768px) {
