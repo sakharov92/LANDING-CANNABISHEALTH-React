@@ -36,7 +36,7 @@ class Promo extends React.Component {
         }
         arr[this.imageNumber].classList.remove("hidden");
     }
-    
+
     render() {
         return (
             <div className="promo">

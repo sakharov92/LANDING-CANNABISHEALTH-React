@@ -126,3 +126,40 @@ footer i {
     width: 100%;
     height: auto;
 }
+
+@media(max-width: 1050px) {
+    .subscribe {
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 767px) {
+    .footerTitle {
+        min-width: 0;
+    }
+    .subscribe {
+        padding: 50px 15px;
+        text-align: center;
+    }
+    .inputBlock {
+        width: 100%;
+        min-width: 100%;
+    }
+    .info {
+        flex-direction: column;
+    }
+    .info ul {
+        max-width: 100%;
+        width: 100%;
+        align-items: center;
+    }
+    .footerLogo {
+        margin: 0 auto;
+    }
+    .EmailButtonArea {
+        width: 20%;
+    }
+    .EmailArea {
+        width: 80%;
+    }
+}

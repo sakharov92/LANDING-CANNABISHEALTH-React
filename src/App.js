@@ -14,7 +14,7 @@ function App() {
     return (
         <>
             <Header />
-            <Promo />
+            {/* <Promo /> */}
             <Advertising />
             <Products />
             <Blog />
