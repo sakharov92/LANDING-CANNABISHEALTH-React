@@ -11,9 +11,6 @@ class Header extends React.Component {
 
     isBurgerOn = false;
 
-
-
-
     menuSwitch() {
         let menu = document.querySelector(".burgerMenuList");
         let menuButton = document.querySelector(".burger-menu");
@@ -27,38 +24,31 @@ class Header extends React.Component {
         this.isBurgerOn = !this.isBurgerOn;
     }
 
-
     componentDidMount() {
         const anchors = document.querySelectorAll('a[href*="#"]')
-
         for (let anchor of anchors) {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault()
-
                 const blockID = anchor.getAttribute('href').substr(1)
-
                 document.getElementById(blockID).scrollIntoView({
                     behavior: 'smooth',
                     block: 'start'
                 })
             })
         }
-
     }
-
 
     render() {
         return (
-
             <header>
                 <div className="container">
-                    <div className="rootBurger">
-                        <div className="burger-menu" onClick={this.menuSwitch}>
+                    <section className="rootBurger">
+                        <nav className="burger-menu" onClick={this.menuSwitch}>
                             <div className="burger-menu__line line1"></div>
                             <div className="burger-menu__line line2"></div>
                             <div className="burger-menu__line line3"></div>
-                        </div>
-                    </div>
+                        </nav>
+                    </section>
                     <ul>
                         <a href="#blog">  <li>Our Blog</li></a>
                         <a href="#about">   <li>About Us</li></a>
@@ -67,20 +57,20 @@ class Header extends React.Component {
                     <div className="logo">
                         <img src={logo} alt="logo"></img>
                     </div>
-                    <div className="userBlock">
+                    <section className="userBlock">
                         <i className="fas fa-search"></i>
                         <i className="fas fa-shopping-cart"></i>
                         <i className="far fa-user"></i>
-                    </div>
+                    </section>
                 </div>
-                <div className="container add">
+                <nav className="container add">
                     <ul className="burgerMenuList">
                         <a href="#blog">     <li>Our Blog</li></a>
                         <a href="#about">     <li>About Us</li></a>
                         <a href="#contact">    <li>Contact Us</li></a>
                     </ul>
-                </div>
-            </header >
+                </nav>
+            </header>
         )
     }
 }

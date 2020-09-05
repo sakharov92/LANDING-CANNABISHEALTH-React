@@ -37,32 +37,32 @@ class Promo extends React.Component {
         arr[this.imageNumber].classList.remove("hidden");
     }
 
-   timerId = setInterval(() => {
+    timerId = setInterval(() => {
         this.slideRight();
     }, 2000);
 
 
 
-render() {
-    return (
-        <div className="promo">
-            <div className="sliderBlock">
-                <div className="sliderPicture">
-                    <img src={background0} alt="background0" className="staticBackgroundImage"></img>
-                    <img src={background0} alt="background0" className="sliderImage"></img>
-                    <img src={background1} alt="background1" className="hidden sliderImage"></img>
-                    <img src={background2} alt="background2" className="hidden sliderImage"></img>
+    render() {
+        return (
+            <section className="promo">
+                <section className="sliderBlock">
+                    <section className="sliderPicture">
+                        <img src={background0} alt="background0" className="staticBackgroundImage"></img>
+                        <img src={background0} alt="background0" className="sliderImage"></img>
+                        <img src={background1} alt="background1" className="hidden sliderImage"></img>
+                        <img src={background2} alt="background2" className="hidden sliderImage"></img>
 
-                </div>
-                <div className="promoTitle">Pure CBD Pure Results</div>
-                <div className="buttonBlock">
-                    <div className="buttonBlockLeft" onClick={this.slideLeft}><i className="fas fa-arrow-left"></i></div>
-                    <div className="buttonBlockRight" onClick={this.slideRight}><i className="fas fa-arrow-right"></i></div>
-                </div>
-            </div>
-        </div>
-    )
-}
+                    </section>
+                    <h2 className="promoTitle">Pure CBD Pure Results</h2>
+                    <section className="buttonBlock">
+                        <div className="buttonBlockLeft" onClick={this.slideLeft}><i className="fas fa-arrow-left"></i></div>
+                        <div className="buttonBlockRight" onClick={this.slideRight}><i className="fas fa-arrow-right"></i></div>
+                    </section>
+                </section>
+            </section>
+        )
+    }
 }
 
 

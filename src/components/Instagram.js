@@ -13,12 +13,12 @@ function Instagram() {
         <div className='instagramPicture' key={e}><img src={e} alt={e.slice(e)}></img></div>
     )
     return (
-        <div id="about" className="instaContainer">
+        <section id="about" className="instaContainer">
             <div className="container">
-                <div className='instaTitle'>#INSTAGRAM FEED</div>
-                <div className='instagram'>{newArr}</div>
+                <h2 className='instaTitle'>#INSTAGRAM FEED</h2>
+                <section className='instagram'>{newArr}</section>
             </div>
-        </div>
+        </section>
     )
 }
 export default Instagram;

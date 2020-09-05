@@ -8,17 +8,17 @@ function Footer() {
     return (
         <footer id="contact">
             <div className='container'>
-                <div className='subscribe'>
-                    <div className='footerTitle'>Subscribe For  a <span>Newsletter</span></div>
+                <section className='subscribe'>
+                    <h2 className='footerTitle'>Subscribe For  a <span>Newsletter</span></h2>
                     <div className="inputBlock">
-                        <div className='EmailArea'><input className='emailInput'></input></div>
-                        <div className='EmailButtonArea'><i className="far fa-envelope"></i></div>
+                        <section className='EmailArea'><input className='emailInput'></input></section>
+                        <section className='EmailButtonArea'><i className="far fa-envelope"></i></section>
                     </div>
-                </div>
-                <div className='info'>
-                    <div className="footerLogo">
+                </section>
+                <section className='info'>
+                    <section className="footerLogo">
                         <img src={logoWhite} alt="logo"></img>
-                    </div>
+                    </section>
                     <ul className="menu">
                         <li><span>Menu</span></li>
                         <li>Our Blog</li>
@@ -39,9 +39,9 @@ function Footer() {
                     </ul>
                     <ul className="about"></ul>
                     <ul className="contact"></ul>
-                </div>
+                </section>
             </div>
-        </footer >
+        </footer>
     )
 }
 

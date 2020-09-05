@@ -8,30 +8,30 @@ import "../css/Advertising.css"
 
 function Advertising() {
     return (
-        <div className="advertising">
+        <section className="advertising">
             <div className="container">
-                <div className="advBlock">
-                    <div className="advItem">
-                        <div className="advTitle">Oils & Tinctures</div>
+                <section className="advBlock">
+                    <section className="advItem">
+                        <h2 className="advTitle">Oils & Tinctures</h2>
                         <div className='advPicture'>
                             <img src={brownBottle} alt="browmBottle"></img>
                         </div>
-                    </div>
-                    <div className="advItem">
-                        <div className="advTitle">Edibles & Drinks</div>
+                    </section>
+                    <section className="advItem">
+                        <h2 className="advTitle">Edibles & Drinks</h2>
                         <div className='advPicture'>
                             <img src={redBottle} alt="browmBottle"></img>
                         </div>
-                    </div>
-                    <div className="advItem">
-                        <div className="advTitle">Body & Skin Care</div>
+                    </section>
+                    <section className="advItem">
+                        <h2 className="advTitle">Body & Skin Care</h2>
                         <div className='advPicture'>
                             <img src={blackBottle} alt="browmBottle"></img>
                         </div>
-                    </div>
-                </div>
+                    </section>
+                </section>
             </div>
-        </div>
+        </section>
     )
 }
 export default Advertising;

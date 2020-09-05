@@ -7,24 +7,24 @@ function Blog() {
     const bloglist = [];
     for (let i in POSTS) {
         bloglist.push(
-            <div key={i} className="postItem">
+            <section key={i} className="postItem">
                 <div className="postPictureBlock">
                     <img src={POSTS[i].picture} alt={POSTS[i].name}></img>
                 </div>
                 <div className="date">{POSTS[i].date}</div>
-                <div className="title">{POSTS[i].name}</div>
-                <div className="button">Read more</div>
-            </div>
+                <h2 className="title">{POSTS[i].name}</h2>
+                <button className="button">Read more</button>
+            </section>
         )
     }
     return (
         <>
-            <div id="blog" className="container">
-                <div className="mainTitle">Our Blog</div>
-                <div className="blogs">
+            <section id="blog" className="container">
+                <h2 className="mainTitle">Our Blog</h2>
+                <section className="blogs">
                     {bloglist}
-                </div>
-            </div>
+                </section>
+            </section>
         </>
     )
 }
